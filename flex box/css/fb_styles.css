@@ -1,3 +1,75 @@
+body{
+    font-family: "Playwrite DE Grund", cursive;
+    background-color: #B7B7B7;
+    color: var(--txt-color);
+    padding: 10px 50px;
+    }
+h3, b {
+    color: #068FFF;
+    text-decoration: underline;
+}
+footer {
+    border-top: 2px solid #ECDFCC;
+    color: var(--txt-color);
+    font-size: 0.7rem;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+}
+section {
+    background-color: var(--light-txt);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+}
+#definition {       
+    color: #DC5F00;
+    font-size: 1.1rem;
+}
+.basicTerms {
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #FECDA6;
+    border-radius: var(--border-radius);
+    background-color: #FECDA6;
+}
+.basicTerms:hover {
+    height: 300px;
+}
+.caption {
+    font-size: 0.6rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.code-example {
+    width: fit-content;
+    padding: 15px;
+    background-color: #424242;
+    color: #ECDFCC;
+    border-radius: 10px;
+}
+.comment {
+    color: gray;
+}
+#playground {
+    background-color: #AFC8AD;
+    border-radius: var(--border-radius);
+    width: 100%;
+    min-height: 300px;
+}
+#flex-container {
+    border: 2px solid #F5F5F7;
+    border-radius: 5px;
+}
+.flex-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #F5F5F7;
+    margin: 5px;
+}
 :root {
     --txt-color: #424242;
     --border-color: #ECDFCC;
