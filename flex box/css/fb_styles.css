@@ -156,6 +156,7 @@ img#exercise-result {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 #two, #four {
 flex-grow: 2;
