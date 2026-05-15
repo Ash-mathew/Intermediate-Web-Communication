@@ -131,7 +131,7 @@ img#exercise-result {
     flex-grow: 3;
 }
 .basis-2 {
-    flex-basis: 2rem;
+    flex-basis: 4rem;
     background-color: rgb(236, 138, 11);
 }
 .shrink-3{
