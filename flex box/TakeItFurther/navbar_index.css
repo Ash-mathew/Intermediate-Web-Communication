@@ -1,10 +1,19 @@
+
+*, *::before,
+ *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   display: flex;
   justify-content: space-between;
     align-items: center;
+    background-color: white;
   border-bottom-color: green;
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    padding: 15px;
 }
 ul {
   display: flex;
@@ -18,7 +27,8 @@ p {
     font-size: 1.5rem;
 }
 button {
-    background-color: green;
+  /* background-color: transparent; */  
+  background-color: green;
     color: white;
     border: none;
     padding: 10px 20px;
