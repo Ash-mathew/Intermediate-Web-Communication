@@ -95,11 +95,22 @@ h2 {
     text-decoration: underline;
 } 
 /*Demo*/
+
 #container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-columns: 80px 80px 80px 80px;
     grid-template-rows: 5rem 5rem 5rem;
-}
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #five {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+ }
 /* 
 Set the width of webpage to 80% of viewport and align the content to the center of screen. 
 Set the background color to "whitesmoke", font-family to "Chakra Petch" and "sans-serif" as backup font-family. 
